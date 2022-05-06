@@ -1,5 +1,4 @@
 '''
-CIS 492/593 Big Data Final Project
 My Youtube Recommendation System
 Author: Sabareeswaran Shanmugam
 Dataset :https://github.com/sabareeswarans11/My_YouTube_Recommendation_System/blob/master/testdata_with_oneHotEncoding.csv
