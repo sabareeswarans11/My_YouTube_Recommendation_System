@@ -1,0 +1,216 @@
+
+<html>
+<head>
+
+
+<style>
+
+
+body, html{
+     height: 100%;
+background:white;	font-family: 'Oxygen', sans-serif;
+
+}
+
+.main{
+ 	margin:50px 15px;
+	background: white;
+}
+
+h1.title {
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+	height: 40px;
+	margin-left:30px ;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+/* Header/Blog Title */
+.header  {
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:600;
+  text-align: center;
+  background: whitesmoke;
+  max-width: 100%;
+}
+
+
+
+
+.show{
+  display: block;
+}
+
+.fade-out{
+  opacity: 0;
+}
+
+.footer{
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: grey;
+	color: white;
+}
+
+
+.main-login{
+ 	background-color:red;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+.container,.row, .main
+{
+background:whitesmoke;
+}
+.form-control {
+    height: auto!important;
+    padding:20px 20px !important;
+}
+.input-group {
+	padding-left: 40%;
+}
+#button {
+    border: 1px solid #ccc;
+    margin-top: 28px;
+    padding: 6px 12px;
+    color: #666;
+    text-shadow: 0 1px #fff;
+    cursor: pointer;
+    -moz-border-radius: 3px 3px;
+    -webkit-border-radius: 3px 3px;
+    border-radius: 3px 3px;
+    -moz-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    -webkit-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    box-shadow: 0 1px #fff inset, 0 1px #ddd;
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -o-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: -ms-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	width:80%;
+    padding: 10px 40px;
+	background: red;
+	    color: #FFF;
+    text-shadow: none;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+span.input-group-addon i {
+    color:whitesmoke;
+    font-size: 17px;
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.b {
+    background-color:#ffffff;
+    border:1px white ;
+    color:black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+</style>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<title>Search YouTube Videos by topic </title>
+</head>
+<body  style="background:whitesmoke">
+	 <div class="header">
+     <h2 class ="title">  MY YOUTUBE RECOMMENDATION SYSTEM </h2>
+     <h3 class = "title"> Spring-2022 CIS-593 Big Data Final Project</h3>
+   </div>
+		<div class="container" >
+			<div class="row main">
+				<div class="main-login main-center">
+				<h1 style="text-align: center"><font size=5>SEARCH YOUTUBE VIDEOS BY KEYWORDS/TOPIC</font></h1><HR>
+					<form enctype = "multipart/form-data" id="myform" class="" method="post" action="/result">
+
+						<div class="form-group">
+
+							<div class="cols-sm-3">
+								<div class="input-group">
+
+									<input type="text" class="form-control" name="search" id="name"  placeholder="Enter your keyword" required/>
+								</div>
+							</div>
+						</div>
+
+						<BR>
+						<div class="form-group" style="text-align: center">
+						<input type="submit"  value="        SUBMIT       " class="b"/>
+						</div>
+
+					</form>
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class= "footer" style="height: 50px;">
+          &copy; Copyright 2022, Powered by SABAREESWARAN SHANMUGAM CSU ID:2796495
+        </div>
+
+	</body>
+</html>
