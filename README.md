@@ -4,5 +4,5 @@ Realtime YouTube data Scrap, Analysis, classify using ML Algorithm, build a rand
 # Dataset running in backend 
 https://github.com/sabareeswarans11/My_YouTube_Recommendation_System/blob/master/testdata_with_oneHotEncoding.csv
 
-# credit 
+# Credits 
 https://github.com/prathimacode-hub/ML-ProjectKart
