@@ -7,7 +7,7 @@ https://github.com/sabareeswarans11/My_YouTube_Recommendation_System/blob/master
 # Intermediate Results ML Classifier( Case Study Results) 
 <img width="800" alt="Screenshot 2022-05-18 at 4 19 11 PM" src="https://user-images.githubusercontent.com/94094997/169148825-a7ad81e6-231f-4ddb-9df9-d3bfca01a924.png">
 
-<img width="579" alt="Screenshot 2022-05-18 at 4 19 25 PM" src="https://user-images.githubusercontent.com/94094997/169148880-03a74d9b-e7ce-440d-a1b8-8469e34767c0.png">
+<img width="800" alt="Screenshot 2022-05-18 at 4 19 25 PM" src="https://user-images.githubusercontent.com/94094997/169148880-03a74d9b-e7ce-440d-a1b8-8469e34767c0.png">
 
 
 
